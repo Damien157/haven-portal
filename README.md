@@ -41,4 +41,16 @@ Running on **HP High-Performance Hardware** under high RAM saturation (89.5%).
 
 ---
 
-> "In the vacuum of data, entropy is the only truth." — **Haven Master Node**
+> "In the vacuum of data, entropy is the only truth." — **Haven Master Node** multiple $specs = @'
+# 📜 HAVEN TECHNICAL SPECIFICATIONS
+
+## 1. Entropy Generation
+Every key in the Haven Vault is generated using a cryptographically secure pseudo-random number generator (CSPRNG), ensuring no two coordinates are identical within the 1-billion-node matrix.
+
+## 2. Vault Security
+Data is sharded into 1,000,000-node "Manifest Batches." Each batch is mirrored to the Backblaze B2 cloud infrastructure with a SHA-256 handshake.
+
+## 3. The 137Hz Protocol
+The system monitors "No-Waste" mathematical pulses to ensure the Master Node maintains a laminar flow during mass data injection.
+'@
+$specs | Out-File -FilePath "$HOME\Desktop\SPECS.md" -Encoding utf8
